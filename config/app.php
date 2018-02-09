@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'key' => 'CHANGE_ME!!!!!!!!!!!!!!!!!!!!!!!',
+    'key' => 'DdgqHzCXGA3tkVBZdomb7VEOlBQ6evzi',
 
     'cipher' => 'AES-256-CBC',
 
