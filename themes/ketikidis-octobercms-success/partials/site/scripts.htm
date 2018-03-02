@@ -1,0 +1,57 @@
+description = "Scripts"
+
+[viewBag]
+==
+<!-- Vendor JS -->
+<script src="{{ [
+   'assets/vendor/jquery/jquery-min.js',
+   'assets/vendor/bootstrap/js/popper.min.js',
+   'assets/vendor/bootstrap/js/bootstrap.min.js',
+   'assets/vendor/shuffle/shuffle.min.js',
+   'assets/vendor/waypoints/waypoints.min.js',
+   'assets/vendor/owl-carousel/js/owl.carousel.js',
+   'assets/vendor/counterup/jquery.counterup.min.js',
+   'assets/vendor/appear/jquery.appear.js'
+   ]|theme }}"></script>
+<!-- Addon JS -->
+{% if this.theme.aos_js %}
+<script type="text/javascript" src="{{ 'assets/vendor/aos/js/aos.js'|theme }}"></script>
+<script>
+   AOS.init({
+     duration: 1200,
+     once: true
+   })
+</script>
+{% endif %}
+{% if this.theme.stickymenu_js %}
+<script type="text/javascript" src="{{ 'assets/vendor/stickymenu/stickymenu.js'|theme }}"></script>
+{% endif %}
+{% if this.theme.load_owl_carousel %}
+<script type="text/javascript" src="{{ 'assets/vendor/owl-carousel/js/owl.carousel.js'|theme }}"></script>
+{% endif %}
+{% if this.theme.smoothscroll_js %}
+<script type="text/javascript" src="{{ 'assets/vendor/smoothscroll/smoothscroll.js'|theme }}"></script>
+{% endif %}
+{% if this.theme.parallax_js %}
+<script type="text/javascript" src="{{ 'assets/vendor/parallax/jquery.parallax.js'|theme }}"></script>
+<script>
+   $(document).ready(function(){
+       $('#pricing').parallax("100%", 0.2);
+   	$('#cool-facts').parallax("100%", 0.3);
+       $('#banner').parallax("100%", 0.3);
+   })
+</script>
+{% endif %}
+<!-- Main JS -->
+<script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+<!-- Core JS -->
+{% if this.theme.settings_octobercms_framework %}
+{% framework extras %}
+{% endif %}
+{% scripts %}
+<!-- Custom JS -->
+{% if this.theme.custom_js %}
+<script>
+   {{ this.theme.custom_js }}
+</script>
+{% endif %}

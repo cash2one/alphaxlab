@@ -1,0 +1,1092 @@
+carousel:
+  name: Carousel
+  description: Carousel
+  icon: icon-file-image-o
+  fields:
+    section_carousel_section:
+      label: Carousel
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Carousel Block.</strong></div>
+      commentHtml: true
+    section_carousel:
+      type: repeater
+      prompt: Add Carousel Slide
+      maxItems: 5
+      form:
+        fields:
+          section_carousel_image:
+            label: Slide Image
+            type: mediafinder
+            mode: image
+            span: left
+          section_carousel_title:
+            label: Slide Title
+            type: text
+            span: right
+          section_carousel_subtitle:
+            label: Slide Subtitle
+            type: text
+            span: right
+          section_carousel_buttonlabel:
+            label: Slide Button Label
+            type: text
+            span: right
+          section_carousel_buttonlink:
+            label: Slide Button Link
+            type: text
+            span: right
+          section_carousel_buttonicon:
+            label: Slide Button Icon
+            type: text
+            span: right
+
+services1:
+  name: Services 1
+  description: Services 1
+  icon: icon-check-square-o
+  fields:
+    section_services1_section:
+      label: Services 1
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Services 1 Block.</strong></div>
+      commentHtml: true
+    section_services1_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_services1_header:
+      label: Services Header
+      type: text
+      span: left
+    section_services1_subheader:
+      label: Services Subheader
+      type: text
+      span: right
+    section_services1:
+      type: repeater
+      prompt: Add Service
+      form:
+        fields:
+          section_services1_icon:
+            label: Service Icon
+            type: text
+            span: left
+          section_services1_title:
+            label: Service Title
+            type: text
+            span: right
+          section_services1_desc:
+            label: Service Description
+            type: textarea
+            size: small
+            span: full
+            
+services2:
+  name: Services 2
+  description: Services 2
+  icon: icon-check-square-o
+  fields:
+    section_services2_section:
+      label: Services 2
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Services 2 Block.</strong></div>
+      commentHtml: true
+    section_services2_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_services2_header:
+      label: Services Header
+      type: text
+      span: left
+    section_services2_subheader:
+      label: Services Subheader
+      type: text
+      span: right
+    section_services2:
+      type: repeater
+      prompt: Add Service
+      form:
+        fields:
+          section_services2_icon:
+            label: Service Icon
+            type: text
+            span: left
+          section_services2_title:
+            label: Service Title
+            type: text
+            span: right
+          section_services2_desc:
+            label: Service Description
+            type: textarea
+            size: small
+            span: full
+            
+services3:
+  name: Services 3
+  description: Services 3
+  icon: icon-check-square-o
+  fields:
+    section_services3_section:
+      label: Services 3
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Services 3 Block.</strong></div>
+      commentHtml: true
+    section_services3_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_services3_header:
+      label: Services Header
+      type: text
+      span: left
+    section_services3_subheader:
+      label: Services Subheader
+      type: text
+      span: right
+    section_services3:
+      type: repeater
+      prompt: Add Service
+      form:
+        fields:
+          section_services3_icon:
+            label: Service Icon
+            type: text
+            span: left
+          section_services3_title:
+            label: Service Title
+            type: text
+            span: right
+          section_services3_desc:
+            label: Service Description
+            type: textarea
+            size: small
+            span: full
+
+about:
+  name: About
+  description: About
+  icon: icon-check-square-o
+  fields:
+    section_about_section:
+      label: About
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about About Block.</strong></div>
+      commentHtml: true
+    section_about_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_about_image:
+      label: About Image
+      type: mediafinder
+      mode: image
+      span: left
+    section_about_title1:
+      label: About Title 1
+      type: text
+      span: left
+    section_about_desc1:
+      label: About Description 1
+      type: textarea
+      size: small
+      span: right
+    section_about_title2:
+      label: About Title 2
+      type: text
+      span: left
+    section_about_desc2:
+      label: About Description 2
+      type: textarea
+      size: small
+      span: right
+    section_about_title3:
+      label: About Title 3
+      type: text
+      span: left
+    section_about_desc3:
+      label: About Description 3
+      type: textarea
+      size: small
+      span: right
+      
+tabsskills:
+  name: Tabs-Skills
+  description: Tabs-Skills
+  icon: icon-line-chart
+  fields:
+    section_tabsskills_section:
+      label: Tabs-Skills
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Tabs-Skills Block.</strong></div>
+      commentHtml: true
+    section_tabsskills_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_tabsskills_header:
+      label: Tabs-Skills Header
+      type: text
+      span: left
+    section_tabsskills_subheader:
+      label: Tabs-Skills Subheader
+      type: text
+      span: right
+    section_tabsskills_tabs:
+      type: repeater
+      prompt: Add Tab
+      span: left
+      form:
+        fields:
+          section_tabsskills_tabs_icon:
+            label: Tab Icon
+            type: text
+            span: left
+          section_tabsskills_tabs_title:
+            label: Tab Title
+            type: text
+            span: right
+          section_tabsskills_tabs_subtitle:
+            label: Tab Subtitle
+            type: text
+            span: left
+          section_tabsskills_tabs_desc:
+            label: Tab Description
+            type: textarea
+            size: small
+            span: right
+    section_tabsskills_skills:
+      type: repeater
+      prompt: Add Skill
+      span: right
+      form:
+        fields:
+          section_tabsskills_skills_title:
+            label: Skill Title
+            type: text
+            span: left
+          section_tabsskills_skills_progress:
+            label: Skill Progress
+            type: number
+            span: right
+
+tabs:
+  name: Tabs
+  description: Tabs
+  icon: icon-line-chart
+  fields:
+    section_tabs_section:
+      label: Tabs
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Tabs Block.</strong></div>
+      commentHtml: true
+    section_tabs_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_tabs_header:
+      label: Tabs Header
+      type: text
+      span: left
+    section_tabs_subheader:
+      label: Tabs Subheader
+      type: text
+      span: right
+    section_tabs_image:
+      label: Tabs Image
+      type: mediafinder
+      mode: image
+      span: left
+    section_tabs_header2:
+      label: Tabs Header 2
+      type: text
+      span: right
+    section_tabs_subheader2:
+      label: Tabs Subheader 2
+      type: text
+      span: right
+    section_tabs:
+      type: repeater
+      prompt: Add Tab
+      form:
+        fields:
+          section_tabs_title:
+            label: Tab Title
+            type: text
+            span: left
+          section_tabs_desc:
+            label: Tab Description
+            type: textarea
+            size: small
+            span: right
+
+skills:
+  name: Skills
+  description: Skills
+  icon: icon-line-chart
+  fields:
+    section_skills_section:
+      label: Skills
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Skills Block.</strong></div>
+      commentHtml: true
+    section_skills_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_skills_header:
+      label: Skills Header
+      type: text
+      span: left
+    section_skills_subheader:
+      label: Skills Subheader
+      type: text
+      span: right
+    section_skills_style:
+      label: Skills Style
+      type: balloon-selector
+      default: color
+      options:
+        color: Default Color
+        skill-striped: Striped
+        skill-striped skill-animated: Animated
+        grey-progress-bar: Gray
+    section_skills:
+      type: repeater
+      prompt: Add Skill
+      form:
+        fields:
+          section_skills_title:
+            label: Skill Title
+            type: text
+            span: left
+          section_skills_progress:
+            label: Skill Progress
+            type: number
+            span: right
+            
+portfolio:
+  name: Portfolio
+  description: Portfolio
+  icon: icon-picture-o
+  fields:
+    section_portfolio_section:
+      label: Portfolio
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Portfolio Block.</strong></div>
+      commentHtml: true
+    section_portfolio_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_portfolio_header:
+      label: Portfolio Header
+      type: text
+      span: left
+    section_portfolio_subheader:
+      label: Portfolio Subheader
+      type: text
+      span: right
+    section_portfolio:
+      type: repeater
+      prompt: Add Portfolio Image
+      form:
+        fields:
+          section_portfolio_thumbimage:
+            label: Portfolio Thumb Image
+            type: mediafinder
+            mode: image
+            span: left
+          section_portfolio_image:
+            label: Portfolio Image
+            type: mediafinder
+            mode: image
+            span: right
+          section_portfolio_title:
+            label: Portfolio Title
+            type: text
+            span: left
+          section_portfolio_subtitle:
+            label: Portfolio Subtitle
+            type: text
+            span: right
+          section_portfolio_category:
+            label: Portfolio Category
+            type: text
+            span: left
+          section_portfolio_link:
+            label: Portfolio Link
+            type: text
+            span: right
+    section_portfolio_column:
+      label: Portfolio Columns
+      type: balloon-selector
+      options:
+        2column: 2 Column
+        3column: 3 Column
+        4column: 4 Column
+      
+portfolio1:
+  name: Portfolio 1
+  description: Portfolio 1
+  icon: icon-picture-o
+  fields:
+    section_portfolio1_section:
+      label: Portfolio 1
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Portfolio 1 Block.</strong></div>
+      commentHtml: true
+    section_portfolio1image:
+      type: repeater
+      prompt: Add Portfolio Image
+      span: left
+      form:
+        fields:
+          section_portfolio1_image:
+            label: Portfolio Image
+            type: mediafinder
+            mode: image
+            span: left
+    section_portfolio1_title:
+      label: Portfolio Title
+      type: text
+      span: right
+    section_portfolio1_desc:
+      label: Portfolio Description
+      type: textarea
+      size: small
+      span: right
+    section_portfolio1_detailstitle:
+      label: Portfolio Details Title
+      type: text
+      span: full
+    section_portfolio1details:
+      type: repeater
+      prompt: Add Portfolio Detail Item
+      span: full
+      form:
+        fields:
+          section_portfolio1_detailslabel:
+            label: Portfolio Detail Title
+            type: text
+            span: left
+          section_portfolio1_detailsname:
+            label: Portfolio Detail Description
+            type: text
+            span: right
+    section_portfolio1_buttonlabel:
+      label: Portfolio Button Label
+      type: text
+      span: left
+    section_portfolio1_buttonlink:
+      label: Portfolio Button Link
+      type: text
+      span: right
+
+pricing:
+  name: Pricing
+  description: Pricing
+  icon: icon-database
+  fields:
+    section_pricing_section:
+      label: Pricing
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Pricing Block.</strong></div>
+      commentHtml: true
+    section_pricing_header:
+      label: Pricing Header
+      type: text
+      span: left
+    section_pricing_subheader:
+      label: Pricing Subheader
+      type: text
+      span: right
+    section_pricing_image:
+      label: Pricing Image
+      type: mediafinder
+      mode: image
+      span: left
+    section_pricing:
+      type: repeater
+      prompt: Add Table
+      form:
+        fields:
+          section_pricing_title:
+            label: Pricing Title
+            type: text
+            span: left
+          section_pricing_price:
+            label: Pricing Price
+            type: number
+            span: right
+          section_pricing_feature1:
+            label: Pricing Feature 1
+            type: text
+            span: auto
+          section_pricing_feature2:
+            label: Pricing Feature 2
+            type: text
+            span: auto
+          section_pricing_feature3:
+            label: Pricing Feature 3
+            type: text
+            span: auto
+          section_pricing_feature4:
+            label: Pricing Feature 4
+            type: text
+            span: auto
+          section_pricing_buttonlabel:
+            label: Pricing Button Label
+            type: text
+            span: auto
+          section_pricing_buttonlink:
+            label: Pricing Button Link
+            type: text
+            span: auto
+            
+pricing2:
+  name: Pricing 2
+  description: Pricing 2
+  icon: icon-database
+  fields:
+    section_pricing2_section:
+      label: Pricing 2
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Pricing 2 Block.</strong></div>
+      commentHtml: true
+    section_pricing2_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_pricing2_header:
+      label: Pricing Header
+      type: text
+      span: left
+    section_pricing2_subheader:
+      label: Pricing Subheader
+      type: text
+      span: right
+    section_pricing2:
+      type: repeater
+      prompt: Add Table
+      form:
+        fields:
+          section_pricing2_title:
+            label: Pricing Title
+            type: text
+            span: left
+          section_pricing2_subtitle:
+            label: Pricing Subitle
+            type: text
+            span: right
+          section_pricing2_price:
+            label: Pricing Price
+            type: number
+            span: left
+          section_pricing2_feature1:
+            label: Pricing Feature 1
+            type: text
+            span: right
+          section_pricing2_feature2:
+            label: Pricing Feature 2
+            type: text
+            span: left
+          section_pricing2_feature3:
+            label: Pricing Feature 3
+            type: text
+            span: right
+          section_pricing2_feature4:
+            label: Pricing Feature 4
+            type: text
+            span: left
+          section_pricing2_buttonlabel:
+            label: Pricing Button Label
+            type: text
+            span: right
+          section_pricing2_buttonlink:
+            label: Table Button Link
+            type: text
+            span: left
+          section_pricing2_buttonicon:
+            label: Pricing Button Icon
+            type: text
+            span: right
+
+team:
+  name: Team
+  description: Team
+  icon: icon-user
+  fields:
+    section_team_section:
+      label: Team
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Team Block.</strong></div>
+      commentHtml: true
+    section_team_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_team_header:
+      label: Team Header
+      type: text
+      span: left
+    section_team_subheader:
+      label: Team Subheader
+      type: text
+      span: right
+    section_team:
+      type: repeater
+      prompt: Add Team
+      form:
+        fields:
+          section_team_image:
+            label: Team Image
+            type: mediafinder
+            mode: image
+            span: left
+          section_team_name:
+            label: Team Name
+            type: text
+            span: right
+          section_team_title:
+            label: Team Title
+            type: text
+            span: right
+          section_team_desc:
+            label: Team Description
+            type: textarea
+            size: small
+            span: right
+          section_team_facebook:
+            label: Team Facebook
+            type: text
+            span: right
+          section_team_twitter:
+            label: Team Twitter
+            type: text
+            span: right
+          section_team_googleplus:
+            label: Team Google Plus
+            type: text
+            span: right
+
+facts:
+  name: Facts
+  description: Facts
+  icon: icon-star
+  fields:
+    section_facts_section:
+      label: Facts
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Facts Block.</strong></div>
+      commentHtml: true
+    section_facts_header:
+      label: Facts Header
+      type: text
+      span: left
+    section_facts_subheader:
+      label: Facts Subheader
+      type: text
+      span: right
+    section_facts_image:
+      label: Facts Image
+      type: mediafinder
+      mode: image
+      span: left
+    section_facts:
+      type: repeater
+      prompt: Add fact
+      form:
+        fields:
+          section_facts_icon:
+            label: Fact Icon
+            type: text
+            span: left
+          section_facts_title:
+            label: Fact Title
+            type: text
+            span: right
+          section_facts_number:
+            label: Fact Number
+            type: number
+            span: left
+ 
+testimonials:
+  name: Testimonials
+  description: Testimonials
+  icon: icon-commenting-o
+  fields:
+    section_testimonials_section:
+      label: Testimonials
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Testimonials Block.</strong></div>
+      commentHtml: true
+    section_testimonials_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_testimonials:
+      type: repeater
+      prompt: Add Testimonial
+      form:
+        fields:
+          section_testimonials_image:
+            label: Testimonial Icon
+            type: mediafinder
+            mode: image
+            span: left
+          section_testimonials_desc:
+            label: Testimonial Description
+            type: textarea
+            size: small
+            span: right
+          section_testimonials_name:
+            label: Testimonial Name
+            type: text
+            span: left
+          section_testimonials_linklabel:
+            label: Testimonial Site Name
+            type: text
+            span: right
+          section_testimonials_link:
+            label: Testimonial Site Link
+            type: text
+            span: left
+
+clients:
+  name: Clients
+  description: Clients
+  icon: icon-users
+  fields:
+    section_clients_section:
+      label: Clients
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Clients Block.</strong></div>
+      commentHtml: true
+    section_clients_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_clients_header:
+      label: Clients Header
+      type: text
+      span: left
+    section_clients_subheader:
+      label: Clients Subheader
+      type: text
+      span: right
+    section_clients:
+      type: repeater
+      prompt: Add Client
+      form:
+        fields:
+          section_clients_image:
+            label: Client Image
+            type: mediafinder
+            mode: image
+            span: left
+          section_clients_title:
+            label: Client Title
+            type: text
+            span: right
+            
+banner:
+  name: Banner
+  description: Banner
+  icon: icon-users
+  fields:
+    section_banner_section:
+      label: Banner
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Banner Block.</strong></div>
+      commentHtml: true
+    section_banner_header:
+      label: Banner Header
+      type: text
+      span: left
+    section_banner_subheader:
+      label: Banner Subheader
+      type: text
+      span: right
+    section_banner_image:
+      label: Banner Image
+      type: mediafinder
+      mode: image
+      span: left
+    section_banner_buttonlabel:
+      label: Banner Button Label
+      type: text
+      span: right
+    section_banner_buttonlink:
+      label: Banner Button Link
+      type: text
+      span: right
+    section_banner_buttonicon:
+      label: Banner Button Icon
+      type: text
+      span: right
+
+contactus:
+  name: Contact Us
+  description: Contact Us
+  icon: icon-envelope-o
+  fields:
+    section_contactus_section:
+      label: Contact Us
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Contact Us Block.</strong></div>
+      commentHtml: true
+    section_contactus_header:
+      label: Contact Us Header
+      type: text
+      span: left
+    section_contactus_subheader:
+      label: Contact Us Subheader
+      type: text
+      span: right
+    section_contactus_loacationtitle:
+      label: Contact Us Location Title
+      type: text
+      span: left
+    section_contactus_address:
+      label: Contact Us Address
+      type: text
+      span: right
+    section_contactus_phone:
+      label: Contact Us Phone
+      type: number
+      span: left
+    section_contactus_email:
+      label: Contact Us Email
+      type: text
+      span: right
+    section_contactus_hourstitle:
+      label: Contact Us Hours Title
+      type: text
+      span: left
+    section_contactus_hours:
+      label: Contact Us Hours
+      type: textarea
+      size: small
+      span: right
+    section_contactus_socialtitle:
+      label: Contact Us Social Title
+      type: text
+      span: left
+    section_contactus_facebook:
+      label: Contact Us Facebook
+      type: text
+      span: right
+    section_contactus_twitter:
+      label: Contact Us Twitter
+      type: text
+      span: left
+    section_contactus_linkedin:
+      label: Contact Us LinkedIn
+      type: text
+      span: right
+    section_contactus_googleplus:
+      label: Contact Us Google Plus
+      type: text
+      span: left
+    section_contactus_map:
+      label: Turn On Map
+      type: switch
+      span: left
+      default: false
+    section_contactus_mapaddress:
+      label: Contact Us Map Address
+      type: text
+      span: left
+      trigger:
+        action: show
+        field: section_contactus_map
+        condition: checked
+    section_contactus_maplanguage:
+      label: Contact Us Map Language
+      type: dropdown
+      span: left
+      options:
+        en: English
+        el: Greek
+        fr: France
+        de: Germany
+        es: Spain
+        ru: Russia
+      trigger:
+        action: show
+        field: section_contactus_map
+        condition: checked
+    section_contactus_mapregion:
+      label: Contact Us Map Region
+      type: text
+      span: left
+      options:
+        EN: English
+        GR: Greece
+        FR: France
+        DE: Germany
+        ES: Spain
+        RU: Russia
+      trigger:
+        action: show
+        field: section_contactus_map
+        condition: checked
+    section_contactus_mapkey:
+      label: Contact Us Google Map Key
+      type: text
+      span: left
+      trigger:
+        action: show
+        field: section_contactus_map
+        condition: checked
+
+contactus2:
+  name: Contact Us 2
+  description: Contact Us 2
+  icon: icon-envelope-o
+  fields:
+    section_contactus2_section:
+      label: Contact Us 2
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Contact Us 2 Block.</strong></div>
+      commentHtml: true
+    section_contactus2_header:
+      label: Contact Us Header
+      type: text
+      span: left
+    section_contactus2_subheader:
+      label: Contact Us Subheader
+      type: text
+      span: right
+    section_contactus2_title:
+      label: Contact Us Location Title
+      type: text
+      span: left
+    section_contactus2_address:
+      label: Contact Us Address
+      type: text
+      span: right
+    section_contactus2_phone:
+      label: Contact Us Phone
+      type: number
+      span: left
+    section_contactus2_fax:
+      label: Contact Us Fax
+      type: number
+      span: right
+    section_contactus2_email:
+      label: Contact Us Email
+      type: text
+      span: left
+    section_contactus2_map:
+      label: Turn On Map
+      type: switch
+      span: left
+      default: false
+    section_contactus2_mapaddress:
+      label: Contact Us Map Address
+      type: text
+      span: left
+      trigger:
+        action: show
+        field: section_contactus2_map
+        condition: checked
+    section_contactus2_maplanguage:
+      label: Contact Us Map Language
+      type: dropdown
+      span: left
+      options:
+        en: English
+        el: Greek
+      trigger:
+        action: show
+        field: section_contactus2_map
+        condition: checked
+    section_contactus2_mapregion:
+      label: Contact Us Map Region
+      type: dropdown
+      span: left
+      options:
+        EN: English
+        GR: Greece
+      trigger:
+        action: show
+        field: section_contactus2_map
+        condition: checked
+    section_contactus2_mapkey:
+      label: Contact Us Google Map Key
+      type: text
+      span: left
+      trigger:
+        action: show
+        field: section_contactus2_map
+        condition: checked
+
+blog:
+  name: Blog
+  description: Blog
+  icon: icon-flag
+  fields:
+    section_blog_section:
+      label: Blog
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Blog Block.</strong></div>
+      commentHtml: true
+    section_blog_bg:
+      label: Section Background Color
+      type: colorpicker
+      availableColors: ["#ffffff","#f1f1f1","#f4f4f4","#f6f6f6","#f8f8f8","#282828"]
+      default: "#ffffff"
+    section_blog_header:
+      label: Blog Header
+      type: text
+      span: left
+    section_blog_subheader:
+      label: Blog Subheader
+      type: text
+      span: right
+        
+pageheader:
+  name: Pageheader
+  description: Pageheader
+  icon: icon-flag
+  fields:
+    section_pageheader_section:
+      label: Pageheader
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Pageheader Block.</strong></div>
+      commentHtml: true
+    section_pageheader:
+      label: Turn On Pageheader
+      type: switch
+      span: left
+      default: false
+
+breadcrumbs:
+  name: Breadcrumbs
+  description: Breadcrumbs
+  icon: icon-bookmark
+  fields:
+    section_breadcrumbs_section:
+      label: Breadcrumbs
+      type: section
+      comment: <div style="color:#e67e22;"><strong>This section contains details about Breadcrumbs Block.</strong></div>
+      commentHtml: true
+    section_breadcrumbs:
+      label: Turn On Breadcrumbs
+      type: switch
+      span: left
+      default: false

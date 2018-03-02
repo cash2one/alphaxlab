@@ -1,0 +1,18 @@
+static-pages:
+    index: {  }
+    pages:
+        pages-about-us: {  }
+        pages-abous-us-2: {  }
+        services: {  }
+        pages-services-2: {  }
+        pages-pricing: {  }
+        pages-team: {  }
+    portfolio:
+        portfolio-portfolio-2-columns: {  }
+        portfolio-portfolio-3-columns: {  }
+        portfolio-portfolio-4-columns: {  }
+        portfolio-portfolio-single: {  }
+    contact-us: {  }
+    terms-services: {  }
+    privacy-policy: {  }
+    sitemap: {  }

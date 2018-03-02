@@ -1,0 +1,16 @@
+name: AlphaXLab
+description: 'AlphaXLab Company Page'
+author: 'Team AlphaXLab'
+homepage: 'https://www.alphaxlab.co/'
+code: octobercms-success
+form: config/fields.yaml
+require:
+    - Rainlab.User
+    - Rainlab.Blog
+    - Rainlab.Pages
+    - Rainlab.Mailchimp
+    - PolloZen.MostVisited
+    - OFFLINE.SiteSearch
+    - Rahman.BlogTags
+    - Martin.Ssbuttons
+    - GrofGraf.ContactMe
